@@ -87,6 +87,9 @@ This endpoint is used to check health of the API.
     ```
 
 3. The Flask application will be accessible at `http://localhost:5001`.
+4. Example routes:
+   - `http://localhost:5001/rates?date_from=2016-01-01&date_to=2016-01-31&origin=CNSGH&destination=kattegat`
+   - `http://localhost:5001/stats`
 
 
 
